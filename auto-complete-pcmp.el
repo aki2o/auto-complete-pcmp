@@ -1,4 +1,4 @@
-;;; auto-complete-pcmp.el --- provide function of auto-complete handle Programmable Completion.
+;;; auto-complete-pcmp.el --- Provide auto-complete sources using pcomplete results
 
 ;; Copyright (C) 2014  Hiroaki Otsu
 
