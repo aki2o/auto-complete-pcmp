@@ -6,7 +6,7 @@
 ;; Keywords: completion
 ;; URL: https://github.com/aki2o/auto-complete-pcmp
 ;; Package-Requires: ((auto-complete "1.4.0") (log4e "0.2.0") (yaxception "0.1"))
-;; Version: 0.0.1
+;; Version: 0.0.2
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -88,6 +88,12 @@
 (defvar ac-pcmp--status nil)
 (defvar ac-pcmp--point nil)
 
+
+(defadvice pcomplete-completions (after ac-pcmp activate)
+  (when (and ac-pcmp--active-p
+             (not ac-pcmp--candidates))
+    (setq ac-pcmp--candidates ad-return-value)
+    (ac-pcmp--trace "got candidates by pcomplete-completions")))
 
 (defadvice pcomplete-show-completions (around ac-pcmp activate)
   (if (not ac-pcmp--active-p)
