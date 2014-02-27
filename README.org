@@ -1,6 +1,6 @@
 * What's this?
 
-  This is a extension of Emacs that provide the functions of auto-complete for handling Programmable Completion.
+  This is a extension of Emacs that provide the functions of auto-complete for handling Programmable Completion.  
   You can define the source of auto-complete.el to handle pcomplete.
 
 
@@ -40,13 +40,13 @@
 (auto-install-from-url "https://raw.github.com/aki2o/auto-complete-pcmp/master/auto-complete-pcmp.el")
    #+END_SRC
 
-   \* In this case, you need to install each of the following dependency.
+    * In this case, you need to install each of the following dependency.
 
 ** Manually
 
    Download bbdb-.el and put it on your load-path.
    
-   \* In this case, you need to install each of the following dependency.
+   * In this case, you need to install each of the following dependency.
 
 ** Dependency
 
@@ -63,5 +63,5 @@
   - yaxception.el ... 0.1
 
 
-  Enjoy!!!
+  **Enjoy!!!**
 
