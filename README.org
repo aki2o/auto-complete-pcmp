@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * What's this?
 
   This is a extension of Emacs that provide the functions of auto-complete for handling Programmable Completion.  
@@ -44,7 +46,7 @@
 
 *** Manually
 
-    Download bbdb-.el and put it on your load-path.  
+    Download auto-complete-pcmp.el and put it on your load-path.  
     
     - In this case, you need to install each of the following dependency.
 

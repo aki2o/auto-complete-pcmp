@@ -1,27 +1,3 @@
-<div id="table-of-contents">
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1. What's this?</a></li>
-<li><a href="#sec-2">2. Function</a></li>
-<li><a href="#sec-3">3. Sample</a></li>
-<li><a href="#sec-4">4. Install</a>
-<ul>
-<li>
-<ul>
-<li><a href="#sec-4-0-1">4.0.1. If use package.el</a></li>
-<li><a href="#sec-4-0-2">4.0.2. If use el-get.el</a></li>
-<li><a href="#sec-4-0-3">4.0.3. If use auto-install.el</a></li>
-<li><a href="#sec-4-0-4">4.0.4. Manually</a></li>
-<li><a href="#sec-4-0-5">4.0.5. Dependency</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#sec-5">5. Tested On</a></li>
-</ul>
-</div>
-</div>
-
 # What's this?
 
 This is a extension of Emacs that provide the functions of auto-complete for handling Programmable Completion.  
@@ -64,7 +40,7 @@ You can define the source of auto-complete.el to handle pcomplete.
 
 ### Manually
 
-Download bbdb-.el and put it on your load-path.  
+Download auto-complete-pcmp.el and put it on your load-path.  
 -   In this case, you need to install each of the following dependency.
 
 ### Dependency
