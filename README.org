@@ -22,38 +22,38 @@
     (cache)
     (action . ac-pcmp/do-ac-action)))
   #+END_SRC
-
+  
 
 * Install
 
-** If use package.el
+*** If use package.el
 
-   2014/02/27 It's available by using melpa.
+    2014/02/27 It's available by using melpa.
 
-** If use el-get.el
+*** If use el-get.el
 
-   2014/02/26 Now application
+    2014/02/26 Now application
 
-** If use auto-install.el
+*** If use auto-install.el
 
    #+BEGIN_SRC lisp
 (auto-install-from-url "https://raw.github.com/aki2o/auto-complete-pcmp/master/auto-complete-pcmp.el")
    #+END_SRC
 
-    * In this case, you need to install each of the following dependency.
+    - In this case, you need to install each of the following dependency.
 
-** Manually
+*** Manually
 
-   Download bbdb-.el and put it on your load-path.
-   
-   * In this case, you need to install each of the following dependency.
+    Download bbdb-.el and put it on your load-path.  
+    
+    - In this case, you need to install each of the following dependency.
 
-** Dependency
+*** Dependency
 
-   - [[https://github.com/auto-complete/auto-complete][auto-complete.el]]
-   - [[https://github.com/aki2o/log4e][log4e.el]]
-   - [[https://github.com/aki2o/yaxception][yaxception.el]]
-   
+    - [[https://github.com/auto-complete/auto-complete][auto-complete.el]]
+    - [[https://github.com/aki2o/log4e][log4e.el]]
+    - [[https://github.com/aki2o/yaxception][yaxception.el]]
+    
 
 * Tested On
   
@@ -62,6 +62,6 @@
   - log4e.el ... 0.2.0
   - yaxception.el ... 0.1
 
-
-  **Enjoy!!!**
+    
+  *Enjoy!!!*
 

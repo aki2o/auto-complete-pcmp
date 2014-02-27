@@ -1,5 +1,4 @@
 <div id="table-of-contents">
-<h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
 <li><a href="#sec-1">1. What's this?</a></li>
@@ -7,11 +6,15 @@
 <li><a href="#sec-3">3. Sample</a></li>
 <li><a href="#sec-4">4. Install</a>
 <ul>
-<li><a href="#sec-4-1">4.1. If use package.el</a></li>
-<li><a href="#sec-4-2">4.2. If use el-get.el</a></li>
-<li><a href="#sec-4-3">4.3. If use auto-install.el</a></li>
-<li><a href="#sec-4-4">4.4. Manually</a></li>
-<li><a href="#sec-4-5">4.5. Dependency</a></li>
+<li>
+<ul>
+<li><a href="#sec-4-0-1">4.0.1. If use package.el</a></li>
+<li><a href="#sec-4-0-2">4.0.2. If use el-get.el</a></li>
+<li><a href="#sec-4-0-3">4.0.3. If use auto-install.el</a></li>
+<li><a href="#sec-4-0-4">4.0.4. Manually</a></li>
+<li><a href="#sec-4-0-5">4.0.5. Dependency</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#sec-5">5. Tested On</a></li>
@@ -44,29 +47,27 @@ You can define the source of auto-complete.el to handle pcomplete.
 
 # Install
 
-## If use package.el
+### If use package.el
 
 2014/02/27 It's available by using melpa.
 
-## If use el-get.el
+### If use el-get.el
 
 2014/02/26 Now application
 
-## If use auto-install.el
+### If use auto-install.el
 
 ```lisp
 (auto-install-from-url "https://raw.github.com/aki2o/auto-complete-pcmp/master/auto-complete-pcmp.el")
 ```
-
 -   In this case, you need to install each of the following dependency.
 
-## Manually
+### Manually
 
-Download bbdb-.el and put it on your load-path.
-
+Download bbdb-.el and put it on your load-path.  
 -   In this case, you need to install each of the following dependency.
 
-## Dependency
+### Dependency
 
 -   [auto-complete.el](https://github.com/auto-complete/auto-complete)
 -   [log4e.el](https://github.com/aki2o/log4e)
@@ -79,6 +80,4 @@ Download bbdb-.el and put it on your load-path.
 -   log4e.el &#x2026; 0.2.0
 -   yaxception.el &#x2026; 0.1
 
-
 **Enjoy!!!**
-
