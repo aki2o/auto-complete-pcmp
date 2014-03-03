@@ -29,7 +29,7 @@ You can define the source of auto-complete.el to handle pcomplete.
 
 ### If use el-get.el
 
-2014/02/26 Now application
+2014/03/03 It's available. But, master branch only.
 
 ### If use auto-install.el
 
@@ -45,9 +45,9 @@ Download auto-complete-pcmp.el and put it on your load-path.
 
 ### Dependency
 
--   [auto-complete.el](https://github.com/auto-complete/auto-complete)
--   [log4e.el](https://github.com/aki2o/log4e)
--   [yaxception.el](https://github.com/aki2o/yaxception)
+-   ![auto-complete.el](https://github.com/auto-complete/auto-complete)
+-   ![log4e.el](https://github.com/aki2o/log4e)
+-   ![yaxception.el](https://github.com/aki2o/yaxception)
 
 # Tested On
 
